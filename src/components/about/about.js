@@ -1,6 +1,6 @@
-import coverPic from "../../images/cover_pic-removebg-preview.png";
 import Skills from "./skills";
 import "./about.css";
+
 export default function About() {
   return (
     <div className="about" id="about">

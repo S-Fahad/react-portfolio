@@ -11,7 +11,7 @@ export default function Portfolio() {
     <div className="portfolio" id="portfolio">
       <h1>My Portfolio</h1>
       <div>
-        <a href="">
+        <a href="https://s-fahad.github.io/digital-clock/">
           <img src={blog} alt="blog" />
         </a>
         <a href="https://s-fahad.github.io/digital-clock/">
