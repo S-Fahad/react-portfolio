@@ -20,15 +20,15 @@ export default function Contact() {
               consequat
             </p>
             <div>
-              <img src={gmail} /> <p>shah@gmail.com</p>
+              <img src={gmail} alt="" /> <p>shah@gmail.com</p>
             </div>
 
             <div>
-              <img src={phone} /> <p>1(123) 456-7890</p>
+              <img src={phone} alt="" /> <p>1(123) 456-7890</p>
             </div>
 
             <div>
-              <img src={location} /> <p>1234 Street, West, VA</p>
+              <img src={location} alt="" /> <p>1234 Street, West, VA</p>
             </div>
           </div>
           <ContactForm />

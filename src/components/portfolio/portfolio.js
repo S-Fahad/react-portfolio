@@ -11,27 +11,27 @@ export default function Portfolio() {
     <div className="portfolio" id="portfolio">
       <h1>My Portfolio</h1>
       <div>
-        <a href="" target="_blank">
+        <a href="">
           <img src={blog} alt="blog" />
         </a>
-        <a href="https://s-fahad.github.io/digital-clock/" target="_blank">
+        <a href="https://s-fahad.github.io/digital-clock/">
           {" "}
           <img src={clock} alt="clock" />
         </a>
-        <a href="https://s-fahad.github.io/todo-app-js/" target="_blank">
+        <a href="https://s-fahad.github.io/todo-app-js/">
           {" "}
           <img src={todo3} alt="todo3" />
         </a>
       </div>
       <div>
-        <a href="https://s-fahad.github.io/todo-app-ui-mobile/" target="_blank">
+        <a href="https://s-fahad.github.io/todo-app-ui-mobile/">
           <img src={todo2} alt="todo2" />
         </a>
-        <a href="https://s-fahad.github.io/todo-app-ui-web/" target="_blank">
+        <a href="https://s-fahad.github.io/todo-app-ui-web/">
           {" "}
           <img src={todo1} alt="todo1" />
         </a>
-        <a href="https://s-fahad.github.io/Basic-html-page" target="_blank">
+        <a href="https://s-fahad.github.io/Basic-html-page">
           {" "}
           <img src={html} alt="html" />
         </a>

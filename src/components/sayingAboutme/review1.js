@@ -3,7 +3,7 @@ import pic1 from "../../images/martin.jpg";
 export default function Review1() {
   return (
     <div className="review">
-      <img src={pic1} />
+      <img src={pic1} alt="" />
       <h3>Elizabeth Martin</h3>
       <p>SaveSpaceInc.</p>
       <p>
