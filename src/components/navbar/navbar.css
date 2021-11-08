@@ -1,0 +1,33 @@
+.navbar {
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  background-color: #fbf3e4;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  border-color: #b9164614;
+  margin: 2px;
+}
+.navbar h1 {
+  margin: 20px 5px;
+  color: #105652;
+}
+
+.sub-navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.sub-navbar li {
+  margin: 30px 20px;
+  color: #424242;
+}
+.sub-navbar a {
+  text-decoration: none;
+  color: #424242;
+}
+
+.sub-navbar a:hover {
+  color: bisque;
+}

@@ -1,0 +1,43 @@
+.resume {
+  width: 90%;
+  margin: auto;
+}
+.resumeHeading {
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  border-bottom: 5px solid yellow;
+  margin: 25px 40%;
+  padding-bottom: 5px;
+}
+.resumeBody {
+  background-color: white;
+  box-shadow: 0px 3px 10px rgb(230, 221, 221);
+  border-radius: 10px;
+}
+.resume hr {
+  margin: 10px 0px;
+}
+.resume h1 {
+  padding: 10px 0px;
+}
+.head {
+  padding: 10px 20px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.section2 {
+  padding: 10px 35px;
+}
+.section1 div {
+  margin: 10px 0px;
+}
+.section2 span {
+  margin: 5px;
+  background-color: thistle;
+  padding: 5px 10px;
+  border-radius: 10px;
+}

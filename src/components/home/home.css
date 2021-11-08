@@ -1,0 +1,49 @@
+.home {
+  background-color: #105652;
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+  height: 375px;
+}
+.home div {
+  padding: 60px 10px 20px 80px;
+}
+.coverPic {
+  height: 351px;
+  width: 330px;
+  margin: 40px 130px 0px 10px;
+  padding: 0px;
+}
+.home h1 {
+  padding-bottom: 5px;
+  color: #fca738;
+}
+.home h2 {
+  color: white;
+}
+.home p {
+  color: white;
+  padding-top: 60px;
+  word-spacing: 2px;
+}
+.btn-hire {
+  color: white;
+  background-color: #09bead;
+  border: 2px solid #09bead;
+  border-radius: 5px;
+  margin: 20px 5px;
+  padding: 8px 25px;
+}
+.btn-hire a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-resume {
+  color: white;
+  background-color: #fca738;
+  border: 2px solid #fca738;
+  border-radius: 5px;
+  margin: 20px 5px;
+  padding: 8px 20px;
+}

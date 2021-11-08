@@ -1,0 +1,33 @@
+.aboutMe {
+  width: 90%;
+  margin: auto;
+}
+.aboutMe h1 {
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+  border-bottom: 7px solid yellow;
+  padding: 7px;
+  margin: 0% 34%;
+}
+.aboutMeContent {
+  display: flex;
+  background-color: white;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgb(213, 204, 204);
+  border-radius: 10px;
+}
+.review {
+  margin: 20px;
+}
+.review img {
+  height: 130px;
+  width: 130px;
+}
+.footer-aboutMe {
+  background-color: #fbf3e4;
+  text-align: center;
+  padding: 20px 0px;
+}
