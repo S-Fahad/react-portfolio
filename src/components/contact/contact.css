@@ -1,13 +1,17 @@
 .contactMe {
-  margin-top: 10px;
   width: 90%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .contactMe h1 {
+  font-size: 35px;
+  font-weight: bolder;
   text-align: center;
-  border-bottom: 7px solid yellow;
-  margin: 4% 42% 2% 42%;
+  border-bottom: 5px solid yellow;
+  margin: 10px auto;
+  padding-top: 30px;
 }
 
 .contactMe img {
@@ -57,4 +61,16 @@ textarea {
   width: 300px;
   margin: 5px 0px 15px 0px;
   padding: 3px;
+}
+.contactForm button {
+  width: 50%;
+}
+@media screen and (min-width: 200px) and (max-width: 920px) {
+  .contactMe-flex {
+    flex-direction: column;
+  }
+  .contactForm input,
+  textarea {
+    width: 180px;
+  }
 }

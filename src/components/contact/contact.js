@@ -1,14 +1,11 @@
 import "./contact.css";
 import ContactForm from "./contactForm";
-import gmail from "../../images/message.png";
-import phone from "../../images/call.png";
-import location from "../../images/location.png";
 
 export default function Contact() {
   return (
     <>
       <div className="contactMe" id="contact">
-        <h1>Contact Me</h1>
+        <h1 className="heading">Contact Me</h1>
         <div className="contactMe-flex">
           <div className="contactMe-text">
             <h3>Let's connect</h3>
@@ -20,15 +17,24 @@ export default function Contact() {
               consequat
             </p>
             <div>
-              <img src={gmail} alt="" /> <p>shah@gmail.com</p>
+              <p>
+                <i className="far fa-envelope"></i>
+                shahfahad9@outlook.com
+              </p>
             </div>
 
             <div>
-              <img src={phone} alt="" /> <p>1(123) 456-7890</p>
+              <p>
+                <i className="fas fa-map-marker-alt"></i>
+                Srinagar, india
+              </p>
             </div>
 
             <div>
-              <img src={location} alt="" /> <p>1234 Street, West, VA</p>
+              <p>
+                <i className="fas fa-phone-alt"></i>
+                7006974039
+              </p>
             </div>
           </div>
           <ContactForm />

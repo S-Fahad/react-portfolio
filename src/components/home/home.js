@@ -1,5 +1,5 @@
 import "./home.css";
-import coverPic from "../../images/cover_pic-removebg-preview.png";
+// import coverPic from "../../images/cover_pic-removebg-preview.png";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         </button>
         <button className="btn-resume">Get Resume</button>
       </div>
-      <img src={coverPic} alt="cv" className="coverPic" />
+      {/* <img src={coverPic} alt="cv" className="coverPic" /> */}
     </div>
   );
 }

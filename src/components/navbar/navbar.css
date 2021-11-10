@@ -31,3 +31,14 @@
 .sub-navbar a:hover {
   color: bisque;
 }
+.expandNavbar {
+  display: none;
+}
+@media screen and (min-width: 200px) and (max-width: 920px) {
+  .navbar a {
+    display: none;
+  }
+  .expandNavbar {
+    display: block;
+  }
+}

@@ -1,43 +1,144 @@
 .resume {
   width: 90%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
+
 .resumeHeading {
+  /* display: inline-block; */
+  /* justify-content: center; */
   font-size: 35px;
   font-weight: bolder;
   text-align: center;
   border-bottom: 5px solid yellow;
-  margin: 25px 40%;
-  padding-bottom: 5px;
+  margin: 10px auto;
 }
+
 .resumeBody {
   background-color: white;
   box-shadow: 0px 3px 10px rgb(230, 221, 221);
   border-radius: 10px;
+  padding: 15px;
+}
+.head-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 35px;
+}
+.head-flex div {
+  margin: 10px 10px 5px 20px;
+}
+.head-flex img {
+  background-color: rgba(191, 194, 245, 0.5);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.head-flex h1 {
+  margin-bottom: 7px;
 }
 .resume hr {
-  margin: 10px 0px;
+  margin: 5px 0px;
 }
-.resume h1 {
-  padding: 10px 0px;
+
+.subHead table {
+  width: 100%;
 }
-.head {
-  padding: 10px 20px;
+.subHead img {
+  height: 20px;
+  width: 20px;
 }
-.main {
+.subHead p {
+  margin: 7px 0px 0px 50px;
+}
+.subHead i {
+  margin-right: 10px;
+}
+.singleRow {
+  display: none;
+}
+.main-flex {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
-.section2 {
-  padding: 10px 35px;
-}
 .section1 div {
-  margin: 10px 0px;
+  margin: 0px 0px 30px 25px;
 }
-.section2 span {
-  margin: 5px;
-  background-color: thistle;
-  padding: 5px 10px;
+.section1 h1 {
+  margin-bottom: 5px;
+}
+.section1 i {
+  display: flex;
+  color: grey;
+}
+.section2 {
+  margin: 0px 0px 0px 280px;
+}
+.section2 h1 {
+  margin-bottom: 8px;
+}
+.skill div {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  background-color: rgb(243, 228, 243);
+  padding: 5px 30px;
   border-radius: 10px;
+}
+.projects h1 {
+  margin-top: 10px;
+}
+.projects p {
+  width: 60%;
+  margin: 2px 0px 15px 0px;
+}
+.certificates h1 {
+  margin-top: 20px;
+}
+.certificates p {
+  margin-top: 8px;
+}
+.language h1 {
+  margin: 20px 0px 5px 0px;
+}
+
+.interests h1 {
+  margin: 20px 0px 5px 0px;
+}
+.interests div {
+  display: inline-block;
+  background-color: rgb(243, 228, 243);
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.language th {
+  text-align: left;
+  padding: 10px 0px 0px 0px;
+}
+.language td {
+  color: grey;
+}
+.language table {
+  width: 70%;
+}
+@media screen and (min-width: 200px) and (max-width: 920px) {
+  .main-flex {
+    flex-direction: column;
+  }
+  .section2 {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .singleRow {
+    display: block;
+  }
+  .twoRow {
+    display: none;
+  }
 }

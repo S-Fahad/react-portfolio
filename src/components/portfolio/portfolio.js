@@ -8,11 +8,11 @@ import html from "../../images/basic-html.PNG";
 
 export default function Portfolio() {
   return (
-    <div className="portfolio" id="portfolio">
-      <h1>My Portfolio</h1>
+    <div className="portfolio">
+      <h1 className="heading">My Portfolio</h1>
       <div>
         <a href="https://s-fahad.github.io/digital-clock/">
-          <img src={blog} alt="blog" />
+          <img src={blog} alt="blog" className="p-img" />
         </a>
         <a href="https://s-fahad.github.io/digital-clock/">
           {" "}
@@ -22,8 +22,6 @@ export default function Portfolio() {
           {" "}
           <img src={todo3} alt="todo3" />
         </a>
-      </div>
-      <div>
         <a href="https://s-fahad.github.io/todo-app-ui-mobile/">
           <img src={todo2} alt="todo2" />
         </a>

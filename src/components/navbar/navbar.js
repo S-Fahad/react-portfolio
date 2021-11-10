@@ -23,6 +23,9 @@ export default function Navbar() {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li className="expandNavbar">
+            <i className="fas fa-bars"></i>
+          </li>
         </ul>
       </div>
     </div>

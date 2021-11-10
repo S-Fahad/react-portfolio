@@ -9,12 +9,14 @@ export default function Skills() {
   return (
     <div className="skills">
       <h3>Languages/Library/Technology</h3>
-      <img src={html} alt="html" />
-      <img src={css} alt="css" />
-      <img src={js} alt="js" />
-      <img src={bootstrap} alt="bootstrap" />
-      <img src={react} alt="react" />
-      <img src={github} alt="github" />
+      <div>
+        <img src={html} alt="html" />
+        <img src={css} alt="css" />
+        <img src={js} alt="js" />
+        <img src={bootstrap} alt="bootstrap" />
+        <img src={react} alt="react" />
+        <img src={github} alt="github" />
+      </div>
     </div>
   );
 }

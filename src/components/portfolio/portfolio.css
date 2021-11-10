@@ -1,20 +1,31 @@
 .portfolio {
   width: 90%;
   margin: 50px auto;
+  display: flex;
+  flex-direction: column;
 }
 .portfolio h1 {
   text-align: center;
   border-bottom: 5px solid yellow;
-  margin: 25px 40%;
+  margin: 25px auto;
   padding-bottom: 5px;
 }
 .portfolio img {
   height: 250px;
-  min-width: 250px;
+  width: 350px;
   border-radius: 15px;
   margin: 5px;
 }
+.p-img {
+  border-radius: 15px;
+}
 .portfolio div {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+@media screen and (min-width: 200px) and (max-width: 420px) {
+  .portfolio img {
+    width: 200px;
+  }
 }
