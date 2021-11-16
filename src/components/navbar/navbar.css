@@ -35,10 +35,39 @@
   display: none;
 }
 @media screen and (min-width: 200px) and (max-width: 920px) {
-  .navbar a {
+  .sub-navbar {
     display: none;
+    padding: 0px !important;
+    margin: 0px !important;
   }
   .expandNavbar {
     display: block;
+  }
+  .side-nav {
+    display: block !important;
+    position: absolute;
+    /* z-index: 3; */
+
+    position: absolute;
+    background-color: rgb(241, 248, 246);
+    right: 0%;
+    width: 80%;
+    height: 100vh;
+  }
+  .expandNavbar button {
+    margin-top: 25px;
+    border: none;
+  }
+  .expandNavbar a,
+  i {
+    /* display: inline-block; */
+    /* flex-direction: column; */
+    padding: 10px 15px 10px 0px;
+    margin-left: 20px;
+  }
+  .side-nav div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
   }
 }
