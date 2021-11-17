@@ -12,7 +12,9 @@ export default function Home() {
           {" "}
           <a href="#contact">Hire me</a>
         </button>
-        <button className="btn-resume">Get Resume</button>
+        <button className="btn-resume" id="about">
+          Get Resume
+        </button>
       </div>
       {/* <img src={coverPic} alt="cv" className="coverPic" /> */}
     </div>

@@ -14,7 +14,7 @@ export default function AboutMe() {
         <Review3 />
       </div>
       <div className="footer-aboutMe">
-        <h3>View more testimonials</h3>
+        <h3 id="contact">View more testimonials</h3>
       </div>
     </div>
   );

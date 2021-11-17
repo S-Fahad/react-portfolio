@@ -17,6 +17,7 @@ export default function Skills() {
         <img src={react} alt="react" />
         <img src={github} alt="github" />
       </div>
+      <p id="portFolio"></p>
     </div>
   );
 }

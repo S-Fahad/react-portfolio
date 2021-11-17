@@ -4,7 +4,7 @@ import ContactForm from "./contactForm";
 export default function Contact() {
   return (
     <>
-      <div className="contactMe" id="contact">
+      <div className="contactMe">
         <h1 className="heading">Contact Me</h1>
         <div className="contactMe-flex">
           <div className="contactMe-text">

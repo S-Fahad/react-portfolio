@@ -34,6 +34,7 @@ export default function Portfolio() {
           <img src={html} alt="html" />
         </a>
       </div>
+      <p id="resume"></p>
     </div>
   );
 }

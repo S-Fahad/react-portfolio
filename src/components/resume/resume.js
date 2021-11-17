@@ -3,7 +3,7 @@ import profile from "../../images/profile-pic.PNG";
 
 export default function Resume() {
   return (
-    <div className="resume" id="resume">
+    <div className="resume" >
       <h1 className="resumeHeading">Resume</h1>
       <div className="resumeBody">
         <div className="head-flex">

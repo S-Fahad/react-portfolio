@@ -3,8 +3,8 @@ import "./about.css";
 
 export default function About() {
   return (
-    <div className="about" id="about">
-      <div>
+    <div className="about">
+      <div className="abt">
         <h1>About Me</h1>
         <div className="desc">
           <p>
@@ -18,6 +18,7 @@ export default function About() {
           </p>
         </div>
       </div>
+
       <Skills />
     </div>
   );

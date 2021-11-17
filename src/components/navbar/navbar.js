@@ -7,9 +7,9 @@ export default class Navbar extends Component {
     show: true,
   };
 
+  sideNav = () => this.setState({ show: false });
+  changeState = () => this.setState({ show: true });
   render() {
-    const sideNav = () => this.setState({ show: false });
-    const changeState = () => this.setState({ show: true });
     return (
       <div className="navbar">
         <div>
@@ -18,38 +18,28 @@ export default class Navbar extends Component {
         <div>
           <ul className="sub-navbar">
             <li>
-              <a href="#home" className="hide">
-                Home
-              </a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#about" className="hide">
-                About
-              </a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#portfolio" className="hide">
-                Portfolio
-              </a>
+              <a href="#portFolio">Portfolio</a>
             </li>
             <li>
-              <a href="#resume" className="hide">
-                Resume
-              </a>
+              <a href="#resume">Resume</a>
             </li>
             <li>
-              <a href="#contact" className="hide">
-                Contact
-              </a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
-        <div className="expandNavbar" onClick={sideNav}>
+        <div className="expandNavbar">
           {this.state.show === true ? (
-            <button className="fas fa-bars"></button>
+            <button className="fas fa-bars" onClick={this.sideNav}></button>
           ) : (
             <div>
-              <SideNav change={changeState} />
+              <SideNav change={this.changeState} />
             </div>
           )}
         </div>
